@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: #ff0000;
+    background-color:white; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+    color:black ;
+}
+#table{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+#botao{
+    border-radius: 10px;
+	padding: 15px;
+    border: black 2px solid;
+    color: black;
+    background-color: #ff0000;
+    font-size: medium;
+
+}
+@media (min-width: 768px){
+    main{
+        flex-direction: row;
+        column-gap: 100px;
+        align-items: flex-start;
+    }
+}
